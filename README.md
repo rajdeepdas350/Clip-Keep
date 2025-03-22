@@ -1,6 +1,6 @@
 # Clip Keep - Chrome Extension
 
-![Clip Keep Icon](assets\clip48.png)
+![Clip Keep Icon](assets/clip48.png)
 
 **Clip Keep** is a Chrome extension that allows you to save timestamps of YouTube videos with custom tags, making it easy to revisit specific moments in videos. You can save, play, and delete timestamps directly from the extension's popup.
 
@@ -21,11 +21,11 @@
 
 ### **Popup UI**
 
-![Popup Screenshot](assets\keep-clip1.png)
+![Popup Screenshot](assets/keep-clip1.png)
 
 ### **Saved YT video lists**
 
-![Floating Button Screenshot](assets\keep-clip2.png)
+![Floating Button Screenshot](assets/keep-clip2.png)
 
 ---
 
