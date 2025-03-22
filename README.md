@@ -21,11 +21,15 @@
 
 ### **Popup UI**
 
-![Popup Screenshot](assets/keep-clip1.png)
+![Popup Screenshot](assets/empty-clip-keep.png)
 
 ### **Saved YT video lists**
 
-![Floating Button Screenshot](assets/keep-clip2.png)
+![Floating Button Screenshot](assets/clip-keep-list.png)
+
+### **Entire Setup in Chrome Tab**
+
+![Floating Button Screenshot](assets/entire-setup.png)
 
 ---
 

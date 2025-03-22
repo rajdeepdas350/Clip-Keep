@@ -146,11 +146,11 @@ function loadBookmarks() {
       const li = document.createElement("li");
       li.classList.add("bookmark");
       li.innerHTML = `
-        <span>${bookmark.tag}: ${bookmark.title} - ${formatTime(
-        bookmark.timestamp
-      )}</span>
-        <button class="play-btn">▶</button>
-        <button class="delete-btn">🗑</button>
+        <span><span id="tag-bold">${bookmark.tag}:</span> ${
+        bookmark.title
+      } - ${formatTime(bookmark.timestamp)}</span>
+        <button class="play-btn"><img src="assets/play_btn.png" alt="play button"></button>
+        <button class="delete-btn"><img src="assets/delete_btn.png" alt="delete button"></button>
       `;
       li.querySelector(".play-btn").addEventListener("click", () =>
         playTimestamp(bookmark.timestamp)
