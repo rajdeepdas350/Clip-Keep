@@ -1,0 +1,102 @@
+body {
+  width: 350px;
+  font-family: Arial, sans-serif;
+  background: #1f1f1f;
+  color: white;
+  margin: 0;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #ff9800;
+}
+
+.bookmark-section {
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ff9800;
+  border-radius: 5px;
+  background: #2c2c2c;
+  color: white;
+}
+
+button {
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e68900;
+}
+
+#bookmarks {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.bookmark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2c2c2c;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.bookmark span {
+  flex: 1;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  overflow: hidden;
+}
+
+.play-btn,
+.delete-btn {
+  width: 2rem;
+  background: #4caf50;
+  border: none;
+  color: white;
+  padding: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-btn {
+  background: #f44336;
+}
+
+.play-btn:hover {
+  background: #45a049;
+}
+
+.delete-btn:hover {
+  background: #d32f2f;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+#clip-icon {
+  height: 1.5rem;
+}

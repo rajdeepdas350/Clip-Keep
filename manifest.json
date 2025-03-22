@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Clip Keep",
+  "version": "1.0",
+  "description": "Save timestamps of YouTube videos with notes",
+  "permissions": ["storage", "activeTab", "scripting", "webNavigation"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "icons": {
+    "16": "assets/clip16.png",
+    "48": "assets/clip48.png",
+    "128": "assets/clip128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/clip16.png",
+      "32": "assets/clip32.png",
+      "48": "assets/clip48.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"]
+    }
+  ]
+}
